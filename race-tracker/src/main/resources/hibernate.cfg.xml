@@ -8,7 +8,7 @@
  
         <!-- Connection settings -->
         <property name="hibernate.connection.driver_class">org.postgresql.Driver</property>
-        <property name="hibernate.connection.url">jdbc:postgresql://localhost:5432/ssanta-race</property>
+        <property name="hibernate.connection.url">jdbc:postgresql://db:5432/ssanta-race</property>
         <property name="hibernate.connection.username">postgres</property>
         <property name="hibernate.connection.password">postgres</property>
  
@@ -21,7 +21,7 @@
         <!-- Update database on startup -->
         <property name="hibernate.hbm2ddl.auto">update</property>
  
-        <!-- Annotated entity classes -->
+        <!-- Annotated entity		 classes -->
         <mapping class="com.ssanta.racetracker.model.Event"/>
          <mapping class="com.ssanta.racetracker.model.Horse"/>
         
